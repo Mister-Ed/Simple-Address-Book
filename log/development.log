@@ -1,0 +1,320 @@
+  [1m[36m (327.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateContacts (20150619060752)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "contacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "name" varchar, "address" varchar, "phone" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150619060752"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:43:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1862ms (Views: 1851.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-19 00:43:46 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-19 00:43:56 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (109.6ms)
+Completed 200 OK in 173ms (Views: 160.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 00:44:38 -0600
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w5FmC1lIICrjEWpG+IRvvOBdN2Hy/JqW+wi2LJXYvfS0Fz3dlKW88vxxGhF9y7koY5ZsPJIZ+uq2etAukgH2TA==", "contact"=>{"name"=>"test add", "email"=>"me@you.com", "address"=>"1234 main, Utah, UT 84001", "phone"=>"801-123-1234"}, "commit"=>"Create"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/contacts_controller.rb:22:in `contact_params'
+  app/controllers/contacts_controller.rb:12:in `create'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (60.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (134.7ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-19 00:49:02 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 48ms (Views: 39.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 00:49:24 -0600
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MlvTEN0hzvhICcr+jXi5ocp2otjH3J3pVtuwEqXg1dpF3YjGEMxSIFdpuqkIN281Sb35hac5/ZUbqdYQojmeYg==", "contact"=>{"name"=>"test add", "email"=>"me@you.com", "address"=>"1234 Main", "phone"=>"801-123-1234"}, "commit"=>"Create"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "contacts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2015-06-19 06:49:24.533483"], ["updated_at", "2015-06-19 06:49:24.533483"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contacts
+Completed 302 Found in 12ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:49:24 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:51:12 -0600
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7: <div class="contacts">
+     8:   <div class="container">
+     9: 
+    10:     <% @contact.each do |c| %>
+    11:       <div class="contact">
+    12:         <h3><%= c.name %></h3>
+    13:         <p><%= c.email %></p>
+  app/views/contacts/index.html.erb:10:in `_app_views_contacts_index_html_erb__258907235797463048_70233673952180'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (53.2ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (125.4ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:52:30 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-19 00:52:30 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:53:09 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "Mister.Ed@AgoraCart.com"], ["name", "Mister Ed"], ["address", "Somewhere south of here, Provo, UT 84605"], ["phone", "801-361-2421"], ["created_at", "2015-06-19 06:55:38.469520"], ["updated_at", "2015-06-19 06:55:38.469520"]]
+  [1m[35m (327.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "Super.Man@crushingonloislane.com"], ["name", "Clark"], ["address", "Ice Fortress Way, North Pole, AK 98999"], ["phone", "unlisted number"], ["created_at", "2015-06-19 06:55:38.801633"], ["updated_at", "2015-06-19 06:55:38.801633"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "r2d2@starwars.com"], ["name", "R2-D2 Astro Mech Driod"], ["address", "Galaxy Far Away, Naboo, GX 1111 1111"], ["phone", "1001 1101 0011"], ["created_at", "2015-06-19 06:55:38.805365"], ["updated_at", "2015-06-19 06:55:38.805365"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "yoda@greenshortguy.com"], ["name", "Yoda"], ["address", "there is no try lane, Jedi Temple, TX 50005"], ["phone", "123-123-1234"], ["created_at", "2015-06-19 06:55:38.809852"], ["updated_at", "2015-06-19 06:55:38.809852"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "just@some.com"], ["name", "Chop N. Wood"], ["address", "1234 Main, Nowhere, SD 00001"], ["phone", "202-202-2020"], ["created_at", "2015-06-19 06:55:38.815059"], ["updated_at", "2015-06-19 06:55:38.815059"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:57:45 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 221ms (Views: 210.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-19 00:57:45 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-19 00:57:52 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 00:58:17 -0600
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3jbQWdEKtg/5qyNs+QSGcBJYyLCQtkr0N9n7FGDobOKpsIuPHOcq1+bLUzt8S1DkkZOT7fBTKoh6q50WZzEnWg==", "contact"=>{"name"=>"Test Add1", "email"=>"me@you.com", "address"=>"1234 Main", "phone"=>"801-123-1234"}, "commit"=>"Create"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "contacts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2015-06-19 06:58:17.164402"], ["updated_at", "2015-06-19 06:58:17.164402"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contacts
+Completed 302 Found in 13ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 00:58:17 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.5ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 01:01:57 -0600
+
+SyntaxError (/Users/MisterEd/Documents/gitWork/addresses/app/controllers/contacts_controller.rb:22: syntax error, unexpected ':', expecting ')'
+    params.require(:email :name).permit(:address :phone)
+                           ^
+/Users/MisterEd/Documents/gitWork/addresses/app/controllers/contacts_controller.rb:22: syntax error, unexpected ':', expecting ')'
+    params.require(:email :name).permit(:address :phone)
+                                                  ^):
+  app/controllers/contacts_controller.rb:22: syntax error, unexpected ':', expecting ')'
+  app/controllers/contacts_controller.rb:22: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (61.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (138.1ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 01:02:24 -0600
+
+SyntaxError (/Users/MisterEd/Documents/gitWork/addresses/app/controllers/contacts_controller.rb:22: syntax error, unexpected ';', expecting ')'
+    params.require(:email; :name).permit(:address; :phone)
+                          ^
+/Users/MisterEd/Documents/gitWork/addresses/app/controllers/contacts_controller.rb:22: syntax error, unexpected ';', expecting ')'
+    params.require(:email; :name).permit(:address; :phone)
+                                                  ^):
+  app/controllers/contacts_controller.rb:22: syntax error, unexpected ';', expecting ')'
+  app/controllers/contacts_controller.rb:22: syntax error, unexpected ';', expecting ')'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (57.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (125.3ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 01:07:43 -0600
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3jbQWdEKtg/5qyNs+QSGcBJYyLCQtkr0N9n7FGDobOKpsIuPHOcq1+bLUzt8S1DkkZOT7fBTKoh6q50WZzEnWg==", "contact"=>{"name"=>"Test Add1", "email"=>"me@you.com", "address"=>"1234 Main", "phone"=>"801-123-1234"}, "commit"=>"Create"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: email):
+  app/controllers/contacts_controller.rb:22:in `contact_params'
+  app/controllers/contacts_controller.rb:12:in `create'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.3ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (57.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (129.4ms)
+
+
+Started POST "/contacts" for ::1 at 2015-06-19 01:10:28 -0600
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3jbQWdEKtg/5qyNs+QSGcBJYyLCQtkr0N9n7FGDobOKpsIuPHOcq1+bLUzt8S1DkkZOT7fBTKoh6q50WZzEnWg==", "contact"=>{"name"=>"Test Add1", "email"=>"me@you.com", "address"=>"1234 Main", "phone"=>"801-123-1234"}, "commit"=>"Create"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "contacts" ("email", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["email", "me@you.com"], ["name", "Test Add1"], ["address", "1234 Main"], ["phone", "801-123-1234"], ["created_at", "2015-06-19 07:10:28.574952"], ["updated_at", "2015-06-19 07:10:28.574952"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contacts
+Completed 302 Found in 15ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-19 01:10:28 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.3ms)

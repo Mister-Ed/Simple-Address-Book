@@ -1,0 +1,22 @@
+<div class="header">
+  <div class="container">
+    <h1>Address Book / Contacts List</h1>
+  </div>
+</div>
+
+<div class="contacts">
+  <div class="container">
+
+    <% @contacts.each do |contact| %>
+      <div class="contact">
+        <h3><%= contact.name %></h3>
+        <p><%= contact.email %></p>
+        <p><%= contact.address %></p>
+        <p><%= contact.phone %></p>
+      </div>
+    <% end %>
+
+    <%= link_to 'New Contact', "contacts/new" %>
+
+  </div>
+</div>
