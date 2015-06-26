@@ -376,3 +376,2145 @@ Started GET "/contacts/new" for ::1 at 2015-06-25 22:50:39 -0600
 Processing by ContactsController#new as HTML
   Rendered contacts/new.html.erb within layouts/application (3.3ms)
 Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:11:30 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 330ms (Views: 315.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:11:31 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:12:05 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.4ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:12:05 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:15:37 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:15:37 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:15:39 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:15:39 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:16:10 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.5ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:16:10 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:16:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 217ms (Views: 205.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/contacts.self-8c9a61df16ca6d84f666907aec46c25abff8e480c735b5057bc7dcd04ea21f40.css?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:16:31 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:16:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 135ms (Views: 133.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-82107c5d133e504993716283baf00881932da6737b27d64dad31d87f1c1c6542.css?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:16:48 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:18:25 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-752b3c8a0c446e0224d9d899d6fe4933a2b8b76d8ec4534e0f41afa24f17dac0.css?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:18:25 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:20:31 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-7f2b64242f22d842ec54c08fe6271dbd64eef5ade603fbb53393b222635ce7f9.css?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:20:31 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:23:08 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 119ms (Views: 117.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-595e960248af28e950f9e748872405fb0e73e0512ffb180f040c3e0734d5a81e.css?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:23:09 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:24:42 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-439b5773f9c38940f3a0cfe223264a5217c79308700eed17d00428d17532b425.css?body=1" for ::1 at 2015-06-25 23:24:42 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:24:42 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:24:42 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:24:42 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:24:43 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:24:43 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:24:43 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:25:54 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-fd4c6b6e0bc51b18e9c172f936636116a39e9913fe4b3752f2a4ebcfe7504063.css?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:25:54 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:26:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 108ms (Views: 106.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-3639bd2e873397f9d6f73d768a4d9191f9e2ddc0fd0537d9b266fc5af7213097.css?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:26:49 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:28:30 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 109ms (Views: 108.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-50cc93b49dd7d12c48fa39f8acd516387610d7dfb0ff8daa807f0b99b196febc.css?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:28:30 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-25 23:28:37 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:31:49 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-50cc93b49dd7d12c48fa39f8acd516387610d7dfb0ff8daa807f0b99b196febc.css?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:31:49 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:32:34 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.4ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/contacts.self-50cc93b49dd7d12c48fa39f8acd516387610d7dfb0ff8daa807f0b99b196febc.css?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/application.self-4501f024d071c822ac9bf7dda46cc8956d6b7de836f03bdf69619e276e2a411f.css?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:32:34 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:32:58 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-50cc93b49dd7d12c48fa39f8acd516387610d7dfb0ff8daa807f0b99b196febc.css?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:32:58 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:35:03 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-df96d5f10ba454c1f9abca710d8eb047291a32a6bd0adaf0ba732257783325db.css?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:35:03 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:35:17 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a082e4b4eddb8177243a155fb6ad987a20fbbb0e92c94dc74a1387f595ef3671.css?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:35:17 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:35:50 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a082e4b4eddb8177243a155fb6ad987a20fbbb0e92c94dc74a1387f595ef3671.css?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:35:50 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:35:52 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a082e4b4eddb8177243a155fb6ad987a20fbbb0e92c94dc74a1387f595ef3671.css?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:35:52 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:36:06 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-34f10ed579f8c7761a6a27ca282ff5c796a6b7d8ac6a37a35f75c7ddeebfeba0.css?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:36:06 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:36:21 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-34f10ed579f8c7761a6a27ca282ff5c796a6b7d8ac6a37a35f75c7ddeebfeba0.css?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/application.self-32d952b8b8c3e2083e56362fccc98f09e7ac030abc5576c368c8a791fdf07b2d.css?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:36:21 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:37:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/application.self-b5b6e74a1a7e391d9d51918bb89f3df47da9c729e89ce91063880ffcdca39f19.css?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:37:48 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:41:08 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/application.self-1e9d57af03ae96b6057b861b7e430a65aab34e24b65dc2419167b44b791e3ab4.css?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:41:08 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:41:09 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/application.self-1e9d57af03ae96b6057b861b7e430a65aab34e24b65dc2419167b44b791e3ab4.css?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:41:10 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:42:28 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/application.self-913e3df558304c8816849f978b4702926b5e7dcbd9eb25d5f0ba714824bd8293.css?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:42:29 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:43:40 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/application.self-17b7ac1b64a9d015e7b867ef56417e2081fa4c66e7e14b988ec469c6242f667e.css?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:43:40 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:53:04 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/application.self-fbdb539d3c4d2905a14099c5949452410c2c9c94272875d0db2b8afea151f099.css?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:53:04 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:54:23 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/application.self-38fd454982e37e565386dbcd7a122e9485cbc0056c769eb8afdd0a5dfd312d3f.css?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:54:24 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:54:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:54:48 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:58:10 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-438f8cc67290c6d28fd4d0734bad340bfe7a06a0fd5bedb42ebb53c45292bbdd.css?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-25 23:58:10 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:58:12 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/assets/contacts.self-438f8cc67290c6d28fd4d0734bad340bfe7a06a0fd5bedb42ebb53c45292bbdd.css?body=1" for ::1 at 2015-06-25 23:58:12 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:58:31 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:58:32 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-25 23:59:51 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-874eb67c3053ce7c46e9808a44a0fb48bb5169897afd535d3d90c32f4c6424b1.css?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-25 23:59:51 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:00:12 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-01eb90b423bd433b6dbf36f6d814776811b8de3b4c9912f9ebb3dcb11a80ce97.css?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:00:12 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:02:10 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/application.self-bc421afa327b41b48e26943d77f49256a15002bafcb80913ea589a8e9e34e90b.css?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:02:10 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:03:18 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/application.self-f8e66455ed9cb9b0540a821f2914190e31c029b1eb799f43c528747c74774298.css?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:03:18 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:04:34 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/application.self-68a1dab4b13848262ae9d29ab928b616d3ccd21f6d5c346e9246dfc722a1fb90.css?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:04:34 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:04:37 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.5ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/application.self-68a1dab4b13848262ae9d29ab928b616d3ccd21f6d5c346e9246dfc722a1fb90.css?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:04:37 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:05:39 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/application.self-e767f5e5d5708c7c69d4003328991e7c2ba0b668d9b689f315aaa92f095382c7.css?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:05:39 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:06:17 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/application.self-5bc57810b7819565eb3ba741507abdd069671c2d5d67a0212d2778fd8bb67a10.css?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:06:17 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:07:04 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/application.self-b4333e11b5cb5bec01097ffce09e96b23b6e6b1ff3a6f94ae842c2de6695e2cf.css?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:07:04 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:07:38 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/application.self-6e5b65a118a019937014e9b85bbd9280c5cdc612e36a3438f25b65cf158156c5.css?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:07:38 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:08:18 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/application.self-27d60fed3cd0a27191068bd8aea672e44de878d77e84bb37aff8c9c7a4baa545.css?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:08:18 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:08:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/application.self-1ad7096dff39c053f7029a8a71de87edb58f03f0cbee8638d158d88e85f48d96.css?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:08:48 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:09:06 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/application.self-255fc0736e58c21a9fd9a4977eb67b930277b7aca0625980dedae2651a3f39cf.css?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:09:07 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:09:39 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/application.self-f395f508fe3f5d839613eca94a8455a500f9696a7dc60eff9c25375118ade1b3.css?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:09:39 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:09:58 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/application.self-8c2fcae434938a65406ad6d85acda10628ab78824c94d7ca0c1b10bacef5cf57.css?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:09:58 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:10:23 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/application.self-38d3b67e63e75b9b6674f46e9da9d19014af55fd4479a83dda09ee2744da73f0.css?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:10:24 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:10:25 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-38d3b67e63e75b9b6674f46e9da9d19014af55fd4479a83dda09ee2744da73f0.css?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:10:25 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:10:49 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/application.self-38d3b67e63e75b9b6674f46e9da9d19014af55fd4479a83dda09ee2744da73f0.css?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:10:49 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:11:14 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-a06dd78156793ce8d0ebdc46a4a9617bd27c927fdc07b95f98cd8b035d22400c.css?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:11:14 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:11:58 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.2ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contacts.self-4f57ce7bd335a90bd0cd2b6e7cf6daff2e6e0a55ebc1496f0c78c4e2b0a44a73.css?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:11:59 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:12:18 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.3ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-be4dc0ef0523804a9bb09c32009bb7c242b8bb58fa4d84df641ee2f8552dd50d.css?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:12:18 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:12:42 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/contacts.self-2fc02460a1e3d251c9932af89d761afbfedb124deb23fc0e3c668aaa55d0f77f.css?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:12:42 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:14:16 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 220ms (Views: 203.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:16:54 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-6d220d1e2ab808081d08bc84e089bba446fec69b383f02015f7356c0559a9a21.css?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:16:54 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:18:25 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-1e63b807f0a6cd73c857aaa1e3858cb1dad3c20a4d1a683ffaa28e681dcd5272.css?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:18:25 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:18:27 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-1e63b807f0a6cd73c857aaa1e3858cb1dad3c20a4d1a683ffaa28e681dcd5272.css?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:18:27 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:18:40 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-34e1211a7f3e47971b308fbf669f3a2a59c3e27cff3c236b024755bc66f63802.css?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:18:40 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:19:05 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-fda526178bd5ca6b8b6af1896f728183c33f881de2a535a657dbc29de05f73ad.css?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:19:05 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:19:36 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-5632610e65e693bc901498691021d10e272116d97df932acc51a0c0c86a6d0a7.css?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:19:36 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:20:20 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 93ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-e41b9935ada71fe960ff75e9b3b1d825c3619488e861c292e683511b9f46ef9a.css?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:20:20 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:21:53 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  margin 5px": expected "{", was ";"):
+    2: <html>
+    3: <head>
+    4:   <title>Addresses</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/contacts.scss:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3134800562503395466_70309458830400'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.1ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (60.8ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (170.5ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:22:06 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-5086b812005d30e5019b9836a7d7d73dc91fa9133bd9f0641a32f3d8a34ad0e6.css?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:22:06 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:23:03 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-fa92d1698f13b5ce9832fb19fd737069cfae88c6aca67c72928fdad1c6ee5b17.css?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:23:03 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:23:53 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-a1c3c99c518ce066e0f3814911a758eeff8e0fe651292f34a9ea07251f860f21.css?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:23:53 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:23:55 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-a1c3c99c518ce066e0f3814911a758eeff8e0fe651292f34a9ea07251f860f21.css?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:23:55 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:24:19 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-ac18d30db9494c213423b13065a108298133dc6d42a89c5afb5bc87df64203f8.css?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:24:19 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:27:40 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-01c7e0335092bdb047f90978498c5b7c89d0f4fe9e38ba98828dbb4d57fa20a8.css?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/application.self-2751da9ba5a7212d678d439f4b32674a793057fe2bc4f00004524acf1bae9273.css?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:27:40 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:31:04 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-01c7e0335092bdb047f90978498c5b7c89d0f4fe9e38ba98828dbb4d57fa20a8.css?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/application.self-94476ac69f5ae377a4c57ff588a9c78a6f1a26256432aa7f5bcfa98f1f6430d0.css?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:31:04 -0600
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:31:50 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-01c7e0335092bdb047f90978498c5b7c89d0f4fe9e38ba98828dbb4d57fa20a8.css?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/application.self-082b9ec1213c4abc67d3f3925df2e305650355d8cf99952bf4f06585cf9badb1.css?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:31:50 -0600
+
+
+Started GET "/contacts/contacts" for ::1 at 2015-06-26 00:31:57 -0600
+
+ActionController::RoutingError (No route matches [GET] "/contacts/contacts"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.2) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (51.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (140.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (54.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (130.2ms)
+
+
+Started GET "/contacts/contacts" for ::1 at 2015-06-26 00:31:58 -0600
+
+ActionController::RoutingError (No route matches [GET] "/contacts/contacts"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.2) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MisterEd/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (57.9ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/MisterEd/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (128.2ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:32:19 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:33:03 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-01c7e0335092bdb047f90978498c5b7c89d0f4fe9e38ba98828dbb4d57fa20a8.css?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/application.self-082b9ec1213c4abc67d3f3925df2e305650355d8cf99952bf4f06585cf9badb1.css?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-26 00:33:03 -0600
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:33:05 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.3ms)[0m  SELECT "contacts".* FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contacts/new" for ::1 at 2015-06-26 00:33:11 -0600
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2015-06-26 00:33:12 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.2ms)[0m  [1mSELECT "contacts".* FROM "contacts"[0m
+  Rendered contacts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.2ms)

@@ -15,7 +15,8 @@
     <p><%= f.label :phone %>: <%= f.text_field :phone %></p>
   </div>
   <div class="actions">
-    <%= f.submit "Create" %>
+    <input type="submit" name="commit" value="Create" class="btn btn-add" />
+    <a href="/contacts" class="btn pull-right">Back to Address Book</a>
   </div>
 <% end %>
 
