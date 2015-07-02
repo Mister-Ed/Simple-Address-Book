@@ -11,15 +11,19 @@
         <p><%= contact.email %></p>
         <p><%= contact.address %></p>
         <p><%= contact.phone %></p>
-        <p><a href="/contacts/<%= contact.id %>/edit">Edit this Contact</a></p>
-        <p><a href="/contacts/<%= contact.id %>"
-          data-confirm="Are you sure?"
-          data-method="delete"
-          rel="nofollow">Delete</a></p>
+        <p>
+          <a href="/contacts/<%= contact.id %>/edit" class="btn btn-add btn-mini">Edit this Contact</a>
+          <a href="/contacts/<%= contact.id %>"
+            data-confirm="Are you sure?"
+            data-method="delete"
+            class="btn btn-mini pull-right"
+            rel="nofollow">Delete</a>
+        </p>
       </div>
     <% end %>
 
     <a href="contacts/new" class="btn btn-add">Add New Contact</a>
+    <p><br></p>
 
   </div>
 </div>

@@ -12,4 +12,4 @@ Ruby: ruby 2.2.2p95
 
 Rails: 4.2.1
 
-Database: default SQlite
+Database: default sqlite3

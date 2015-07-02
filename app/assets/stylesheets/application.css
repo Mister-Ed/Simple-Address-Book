@@ -111,3 +111,12 @@
    background-color: #0044cc;
    *background-color: #003bb3;
  }
+
+ .btn-mini {
+
+  padding: 0 7px;
+  font-size: 12px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
