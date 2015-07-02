@@ -11,7 +11,11 @@
         <p><%= contact.email %></p>
         <p><%= contact.address %></p>
         <p><%= contact.phone %></p>
-        
+        <p><a href="/contacts/<%= contact.id %>/edit">Edit this Contact</a></p>
+        <p><a href="/contacts/<%= contact.id %>"
+          data-confirm="Are you sure?"
+          data-method="delete"
+          rel="nofollow">Delete</a></p>
       </div>
     <% end %>
 
