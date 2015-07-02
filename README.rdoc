@@ -6,7 +6,7 @@ from the database.
 The default rails location/page routes to /contacts#index as a 'landing page'.
 
 
-= USES:
+=== USES:
 
 Ruby: ruby 2.2.2p95
 
